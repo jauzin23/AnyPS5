@@ -1,6 +1,8 @@
 name: PR overlap validation
 
 on:
+  push:
+    branches: [ci/verify-pr-21136]
   workflow_dispatch:
 
 permissions:
